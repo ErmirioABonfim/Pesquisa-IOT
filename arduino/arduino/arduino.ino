@@ -23,7 +23,7 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   // read the input on analog pin 0:
-  int sensorValue = map(analogRead(A0),0,1023,0,180);
+  int sensorValue = map(analogRead(A0),0,1023,0,360);
   // print out the value you read:
   Serial.println(sensorValue);
   myservo.write(sensorValue); 

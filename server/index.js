@@ -29,7 +29,7 @@ app.get('/', (req, res, next) => {
 importarmos para ela na linha 6. Passamos os parâmetros de requisição, resposto
 e next.
 Step 02 > Informamos o diretório onde está nossa págin com as informações.
-
+OK
 */
 
 const SerialPort = require('serialport');
